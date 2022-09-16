@@ -15,23 +15,23 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		else if (i % 3 == 0)
-		{
-			printf("Fizz");
-		}
-		else if (i % 5 == 0)
-		{
-			printf("Buzz");
-		}
-		else
-		{
-			printf("%i", i);
-		}
-		if (i != 100)
-		{
-			_putchar(' ');
-		}
-		i++;
+			else if (i % 3 == 0)
+			{
+				printf("Fizz");
+			}
+			else if (i % 5 == 0)
+			{
+				printf("Buzz");
+			}
+			else
+			{
+				printf("%i", i);
+			}
+			if (i != 100)
+			{
+				_putchar(' ');
+			}
+				i++;
 	}
 	_putchar('\n');
 	return (0);
