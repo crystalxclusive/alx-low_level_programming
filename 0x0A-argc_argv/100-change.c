@@ -9,7 +9,7 @@
 int isInteger(const char *s)
 {
 	int i = 0;
-	
+
 	while (s[i] != '\0')
 	{
 		if (s[i] < '0' || s[i] > '9')
@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
 {
 	int i = 0, coinUsed = 0, coin = 0;
 	int coins[] = {25, 10, 5, 2, 1};
-	
+
 	if (argc != 2)
 	{
 		printf("Error\n");
