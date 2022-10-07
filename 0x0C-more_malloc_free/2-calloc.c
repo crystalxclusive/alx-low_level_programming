@@ -30,7 +30,7 @@ char *copychar(char *s1, char c, unsigned int n)
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *array_ptr;
-	
+
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 	array_ptr = malloc(nmemb * size);
