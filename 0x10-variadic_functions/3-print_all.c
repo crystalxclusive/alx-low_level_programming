@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_al - prints all
+ * print_all - prints all
  * @format: static arg
  */
 void print_all(const char * const format, ...)
